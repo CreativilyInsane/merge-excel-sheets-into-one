@@ -29,7 +29,7 @@ pip install openpyxl
 
 📄 Usage
 Basic Example
-python merge_sheets_by_index.py -i "C:\Users\You\Documents\Gazette11th_2025.xlsx" -o "C:\Users\You\Documents\Combined_Tables.xlsx"
+python merge_sheets_by_index.py -i 'input filepath' -o "output file path"
 
 
 This merges all sheets from index 12 to index 253 (default range).
