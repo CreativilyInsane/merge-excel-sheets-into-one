@@ -1,0 +1,48 @@
+{
+  "_metadata": {
+    "created_date": "2024-01-15T10:30:00",
+    "source_file": "data.xlsx",
+    "total_columns": 8,
+    "config_type": "smart_detect"
+  },
+  "columns": {
+    "Roll Number": {
+      "word_count": false,
+      "dtype": "auto",
+      "detected_type": "unknown",
+      "name_has_spaces": false,
+      "name_word_count": 2
+    },
+    "Canidate": {
+      "word_count": {
+        "min_length": 2,
+        "max_length": 25,
+        "start": 0,
+        "end": 10
+      },
+      "dtype": "string",
+      "detected_type": "text",
+      "name_has_spaces": true,
+      "name_word_count": 2,
+      "data_stats": {
+        "avg_length": 45.2,
+        "avg_words": 8.1,
+        "sample_size": 50
+      }
+    },
+    "Result": {
+      "word_count": false,
+      "dtype": "float",
+      "detected_type": "currency",
+      "name_has_spaces": true,
+      "name_word_count": 2
+    },
+    "Score": {
+      "word_count": false,
+      "dtype": "int",
+      "detected_type": "numeric",
+      "name_has_spaces": false,
+      "name_word_count": 1
+    }
+  }
+}
